@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+.addCardbtns{
+    @apply text-lg font-bold w-40 rounded-lg h-10 border text-white
+     hover:translate-y-[-3px]
+    transition-all duration-100 ease-in-out;
+}
+
+.labels{
+    @apply text-xl font-bold mb-2
+}
+.inputs{
+    @apply w-90 p-2 rounded-lg border focus:outline-none
+}

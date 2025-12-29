@@ -1,0 +1,53 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "workbench.list.smoothScrolling": true,
+  "files.autoSave": "afterDelay",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "/tmp/postman-collections-post-response.instructions.md": true,
+    "/tmp/postman-collections-pre-request.instructions.md": true,
+    "/tmp/postman-folder-post-response.instructions.md": true,
+    "/tmp/postman-folder-pre-request.instructions.md": true,
+    "/tmp/postman-http-request-post-response.instructions.md": true,
+    "/tmp/postman-http-request-pre-request.instructions.md": true
+  },
+  "editor.fontFamily": "'Jetbrains Mono'",
+  "editor.inlayHints.fontFamily": "Consolas",
+  "workbench.colorTheme": "Cursor Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.empty.hint": "hidden",
+  "editor.quickSuggestionsDelay": 0,
+  "editor.fontSize": 20,
+  "editor.wordBasedSuggestions": "allDocuments",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "window.menuBarVisibility": "compact",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.smoothScrolling": true,
+  "editor.cursorBlinking": "expand",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "typescript.suggest.completeFunctionCalls": true
+}
